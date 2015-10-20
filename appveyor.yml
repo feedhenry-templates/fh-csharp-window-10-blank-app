@@ -1,0 +1,8 @@
+version: 1.0.{build}
+before_build:
+- nuget restore
+build:
+  project: fh-csharp-window-10-blank-app.sln
+  verbosity: minimal
+cache:
+  - packages -> **\packages.config
