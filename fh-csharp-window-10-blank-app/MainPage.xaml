@@ -23,6 +23,6 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Style="{ThemeResource TitleTextBlockStyle}" Text="Hello World" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="Label" Style="{ThemeResource TitleTextBlockStyle}" Text="Initializing..." HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Page>
