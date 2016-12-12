@@ -21,3 +21,4 @@ bld/
 .vs/
 
 *.orig
+*/project.lock.json
